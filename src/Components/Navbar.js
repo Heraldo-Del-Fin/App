@@ -28,9 +28,8 @@ const Navbar = () => {
 
   const links = [
     { id: 1, path: "/", label: "Inicio" },
-    { id: 2, path: "/news", label: "Noticias" },
-    { id: 3, path: "/register", label: "Registro" },
-    { id: 4, path: "/Contact", label: "Contacto" },
+    { id: 2, path: "/register", label: "Registro" },
+    { id: 3, path: "/Contact", label: "Contacto" },
   ];
 
   return (

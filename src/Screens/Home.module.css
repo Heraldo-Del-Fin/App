@@ -1,6 +1,4 @@
-hr{
-    margin: 10px 0;
-}
+
 
 .showcase{
     width: 100%;
@@ -15,9 +13,15 @@ hr{
     text-align: center;
 }
 
-.showcase h2
-.showcase p{
+.text{
     margin-bottom: 20px;
-    color: #f1f1f1;
+    color: white; /* Color blanco para el texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
+}
+
+.textp{
+    margin-bottom: 20px;
+    color: white; /* Color blanco para el texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para el texto */
 }
 

@@ -1,10 +1,16 @@
 * {
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Asegura que los bordes y padding no aumenten el tamaño de los elementos */
   }
 
+  html, body {
+    height: 100%;
+}
+
   .App {
+    min-height: 100vh; /* Asegura que el contenedor ocupe al menos el 100% de la altura de la ventana */
     font-family: "Oswald", sans-serif;
     background: linear-gradient(180deg, #1a1826, #413b5e);
   }
