@@ -4,8 +4,21 @@
     width: 100%;
     background-color: #4a4564;
     position: absolute;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    list-style: none; /* Elimina los puntos de las listas */
+    padding: 0 20px;
+  }
+
+  .linksContainer {
+    display: flex;
+    flex-direction: column; /* Columnas para menú abierto */
+    padding: 0; /* Elimina los márgenes y paddings predeterminados */
+    list-style: none; /* Elimina los puntos de las listas */
+  }
+  
+  .linksContainer li {
+    margin: 15px 0; /* Espaciado entre los enlaces */
   }
   
   .navOpen {
@@ -16,6 +29,7 @@
     background-color: #4a4564;
     flex-direction: column;
     align-items: center;
+    list-style: none; /* Elimina los puntos de las listas */
   }
   
   .navLink {
@@ -23,11 +37,13 @@
     font-size: 2em;
     font-weight: 400;
     color: #f1f1f1;
+    text-decoration: none; /* Quita subrayado de los enlaces */
     padding-top: 90px;
   }
   
   .navLink:hover {
     cursor: pointer;
+    color: #ff9800; /* Color de resaltado al pasar el mouse */
   }
   
   .border {
@@ -43,6 +59,12 @@
     display: flex;
     color: #f1f1f1;
     font-weight: 600;
+    text-decoration: none; /* Quita subrayado */
+    white-space: nowrap; /* Evita que el texto se envuelva */
+    font-size: 1.5em; /* Ajusta el tamaño */
+    flex-grow: 1; /* Permite que el logo tome espacio disponible */
+    justify-content: center; /* Centra el texto dentro del contenedor */
+    align-items: center; /* Asegura alineación vertical */
   }
   
   @media (min-width: 800px) {
